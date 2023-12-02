@@ -11,7 +11,27 @@ from config import Config
 from infrastructure.display import Display
 
 
+def test():
+    """ this is a function
+    """
+    a=1
+    b=2
+
+    array = []
+    array.append(1)
+
+    name = "miha".split('i')
+
+    print(len(array))
+
+    print('hi')
+    pass
+
+
+
 def main():
+    """ this is a main method
+    """
     config = Config()
 
     display = Display(config)
@@ -92,6 +112,7 @@ def main():
 
     pygame.quit()
     sys.exit()
+
 
 
 
